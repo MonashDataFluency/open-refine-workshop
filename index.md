@@ -2,13 +2,9 @@
 layout: lesson
 root: .
 ---
-This Library Carpentry lesson introduces librarians to working with data in OpenRefine.
-At the conclusion of the lesson you will
-understand what the OpenRefine software does and how to
-use the OpenRefine software to work with data files.
+This beginner-level hands-on workshop is designed to introduce the basics of working with OpenRefine to clean up, transform and enhance 'messy' datasets. At the conclusion of the workshop you will understand what the OpenRefine software does and how to use it to clean and transform data for your own projects.
+
 
 > ## Prerequisites
->To complete this lesson you will need Firefox web browser and OpenRefine. 
-> If not already installed, you will need to install [Firefox](https://www.mozilla.org/en-US/firefox/new/)
-> and [OpenRefine](http://openrefine.org/download.html).
+>To complete this lesson you will need a web browser and [OpenRefine](http://openrefine.org/download.html).
 {: .prereq}
