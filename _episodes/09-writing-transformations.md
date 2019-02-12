@@ -3,9 +3,11 @@ title: "Writing Transformations"
 teaching: 5
 exercises: 10
 questions:
+- "What is GREL?"
 - "Where do I write GREL expressions in the OpenRefine interface?"
 - "How do I write a valid GREL expression?"
 objectives:
+- "Introduce GREL, the General Refine Expression Language"
 - "Explain how to write one's own transformations using GREL"
 keypoints:
 - "You can alter data in OpenRefine based on specific instructions"
@@ -13,6 +15,10 @@ keypoints:
 ---
 
 ## Writing transformations
+
+Transformations are normally written in a special language called 'GREL' (General Refine Expression Language). To some extent GREL expressions are similar to Excel Formula, although they tend to focus on text manipulations rather than numeric functions.
+
+Full documentation for the GREL is available at [https://github.com/OpenRefine/OpenRefine/wiki/General-Refine-Expression-Language](https://github.com/OpenRefine/OpenRefine/wiki/General-Refine-Expression-Language). This tutorial covers only a small subset of the commands available.
 
 To start writing transformations, select the column on which you wish to perform a transformation and choose ```Edit cells->Transform…```. In the screen that displays you have a place to write a transformation (the 'Expression' box) and then the ability to Preview the effect the transformation would have on 10 rows of your data.
 
