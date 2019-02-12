@@ -20,9 +20,9 @@ You can download OpenRefine from [http://openrefine.org/download.html](http://op
 
 Unzip the downloaded file wherever you want to install the program. This can be to a personal directory or to an applications or software directory - OpenRefine should run wherever you put the unzipped folder. The location has to be a "local" drive as problems have been reported trying to run OpenRefine from a Network drive.
 
-If oyu are using a university device you may be asked for an administration login to install and run OpenRefine. To avoid this, particularly for the purpose of this workshop, please unzip and run from your local **downloads** folder.
+*If you are using a university device you may be asked for an administrator login to install and run OpenRefine. To avoid this, particularly for the purpose of this workshop, please unzip and run from your local **downloads** folder.*
 
-If you are downloading OpenRefine for Mac, you are downloading a 'dmg' (disk image) file which you can open, and then drag the OpenRefine application to an appropriate folder on you computer.
+If you are downloading OpenRefine for Mac, you will have a 'dmg' (disk image) file which you can open, and then drag the OpenRefine application to an appropriate folder on you computer.
 
 **To run Refine:**
 
@@ -30,12 +30,17 @@ If you are downloading OpenRefine for Mac, you are downloading a 'dmg' (disk ima
 * On Linux: Navigate to the folder where you’ve installed OpenRefine in a terminal window and type ‘./refine’
 * On Mac: Navigate to where you installed OpenRefine and click the OpenRefine icon
 
-The interface to OpenRefine is accessed via a web browser. When you run Refine normally this should open a window in your default web browser pointing at the address http://127.0.0.1:3333. If this doesn't happen automatically you can open a web browser and type in this address.
+The interface to OpenRefine is accessed via a web browser. When you run OpenRefine normally this should open a window in your default web browser pointing at the address http://127.0.0.1:3333. If this doesn't happen automatically you can open a web browser and type in this address.
 
-**Troubleshooting** OpenRefine is a Java application, if you are having trouble running OpenRefine you need to have a 'Java Runtime Environment' (JRE) installed on your computer to run OpenRefine**. If you don’t already have one installed then you can download and install from [http://java.com](http://java.com) by going to the site and clicking "Free Java Download".
 
-**Getting help**
-If you encounter problems installing or running OpenRefine, helpers will be onhand 30 minutes prior to the start of the start of the workshop
+**Troubleshooting:** 
+
+OpenRefine is a Java application, if you are having trouble running OpenRefine you need to have a 'Java Runtime Environment' (JRE) installed on your computer to run OpenRefine**. If you don’t already have one installed then you can download and install from [http://java.com](http://java.com) by going to the site and clicking "Free Java Download".
+
+
+**Getting help:**
+
+**If you encounter problems installing or running OpenRefine, helpers will be onhand 30 minutes prior to the start of the workshop**
 
 If you encounter problems installing or running OpenRefine, a good source of support is [the OpenRefine mailing list and forum](https://groups.google.com/forum/?fromgroups#!forum/openrefine)
 
@@ -47,7 +52,7 @@ For this workshop, we will be using a prepared sample data set. Please ensure yo
 
 1. Right click on the following link and select **Save Link As… or download linked file:** [doaj-article-sample.csv](https://github.com/LibraryCarpentry/lc-open-refine/raw/gh-pages/data/doaj-article-sample.csv)
 
-Make a note of the location (i.e the folder, your desktop) to which you save the file.
+  Make a note of the location (i.e the folder, your desktop) to which you save the file.
 
 
 [template]: {{ site.workshop_repo }}
