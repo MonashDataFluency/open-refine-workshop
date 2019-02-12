@@ -3,12 +3,10 @@ title: "Introduction to Transformations"
 teaching: 5
 exercises: 5
 questions:
-- "How do I use transformations to programmatically edit my data?"
-- "What are the kind of transformations Open Refine supports?"
-- "What is GREL?"
+- "How do I use transformations to edit my data?"
+- "What are the kind of transformations OpenRefine supports?"
 objectives:
 - "Introduce common transformations"
-- "Introduce GREL, the General Refine Expression Language"
 keypoints:
 - "Common transformations are available through the Menu option"
 ---
@@ -23,14 +21,12 @@ However, sometimes there will be changes you want to make to the data that canno
 * Standardising the format of data in a column without changing the values (e.g. removing punctuation or standardising a date format)
 * Extracting a particular type of data from a longer text string (e.g. finding ISBNs in a bibliographic citation)
 
-To support this type of activity OpenRefine supports 'Transformations' which are ways of manipulating data in columns. Transformations are normally written in a special language called 'GREL' (General Refine Expression Language). To some extent GREL expressions are similar to Excel Formula, although they tend to focus on text manipulations rather than numeric functions.
-
-Full documentation for the GREL is available at [https://github.com/OpenRefine/OpenRefine/wiki/General-Refine-Expression-Language](https://github.com/OpenRefine/OpenRefine/wiki/General-Refine-Expression-Language). This tutorial covers only a small subset of the commands available.
+To support this type of activity OpenRefine supports 'Transformations' which are ways of manipulating data in columns. 
 
 ### Common transformations
 Some transformations are used regularly and are accessible directly through menu options, without having to type them directly.
 
-Examples of some of these common transformations are given in the table below, with their 'GREL' equivalents. We'll see how to use the GREL version later in this lesson.
+Examples of some of these common transformations are given in the table below, with their 'GREL' equivalents. We'll see how to use the GREL version in the next lesson.
 
 Common Transformation  | Action | GREL expression
 --------------------| ------------- | -------------
