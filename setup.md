@@ -12,9 +12,9 @@ Before arriving at the workshop please ensure that you have:
 
 ### Downloading OpenRefine
 
-**OpenRefine 2.7 is recommended.**
+**OpenRefine 3.1 is recommended.**
 
-You can download OpenRefine from [http://openrefine.org/download.html](http://openrefine.org/download.html). This lesson has been tested with all versions of OpenRefine, from 2.5 to 2.7.  There are versions for Windows, Mac OS X and Linux.
+You can download OpenRefine from [http://openrefine.org/download.html](http://openrefine.org/download.html). There are versions for Windows, Mac OS X and Linux.
 
 ### Installing and Running OpenRefine
 
