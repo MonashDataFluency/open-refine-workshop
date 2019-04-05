@@ -26,7 +26,7 @@ If you are downloading OpenRefine for Mac, you will have a 'dmg' (disk image) fi
 
 **To run Refine:**
 
-* On Windows: Navigate to the folder where you’ve installed OpenRefine and either double-click ‘google-refine.exe’ (for Google Refine 2.5), ’openrefine.exe’ (for OpenRefine 2.7) or ‘refine.bat’ (for either)
+* On Windows: Navigate to the folder where you’ve installed OpenRefine and  double-click the ‘.exe’ or ‘refine.bat’ file
 * On Linux: Navigate to the folder where you’ve installed OpenRefine in a terminal window and type ‘./refine’
 * On Mac: Navigate to where you installed OpenRefine and click the OpenRefine icon
 
@@ -44,7 +44,6 @@ OpenRefine is a Java application, if you are having trouble running OpenRefine y
 
 If you encounter problems installing or running OpenRefine, a good source of support is [the OpenRefine mailing list and forum](https://groups.google.com/forum/?fromgroups#!forum/openrefine)
 
-If you are installing OpenRefine on Windows, you may want to check the thread on [Installing OpenRefine on Windows 7](https://groups.google.com/forum/?fromgroups#!searchin/openrefine/64-bit%7Csort:date/openrefine/vUzqJqJ-sAA/Tb2Om9wvaqgJ)
 
 ### Downloading the data
 
