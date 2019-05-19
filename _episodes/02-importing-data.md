@@ -36,7 +36,7 @@ keypoints:
 >6. Make sure the `Parse cell text into numbers, dates, ...` box is not checked, so OpenRefine doesn't try to automatically detect numbers
 >7. Once you are happy click the `Create Project >>` button at the top right of the screen. This will create the project and open it for you. Projects are saved as you work on them, there is no need to save copies as you go along.
 >   
-> ![Create project screen capture](../assets/img/openrefine_ui.png)
+> ![Create project screen capture](../assets/img/openrefine_ui_3-1.png)
 >
 {: .checklist}
 
