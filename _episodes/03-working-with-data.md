@@ -44,8 +44,8 @@ To work with the author names effectively in OpenRefine, we need to have each na
 * Click the `Records` option to change to Records mode
     * Note how the numbering has changed - indicating that several rows are related to the same record
 
- ![rows](../assets/img/rows.png)
- ![records](../assets/img/records.png)
+ ![rows](../assets/img/cell-split.png)
+ 
 
 Now that we can split multi-valued cells, we'll cover how to join them back together.
 
@@ -149,10 +149,11 @@ To clean or interrogate your data you may wish to split multi-valued cells into 
 * Choose `Edit column->Split into several columns...`
 * In the prompt type the ( \| ) symbol and click `OK`
 
- ![menu view](../assets/img/column-split-001.png)
- ![split view](../assets/img/column-split-002.png)
+ ![menu view](../assets/img/column-split.png)
+
 
 **N.B.** there is no menu function to merge columns together. However, it can be achieved by creating anew column and writing a transformation. `Edit Cells - Add column based on this column` and then use the following expression format: `cells['Authors 1'].value + " | "+ cells['Authors 2'].value`
 
 Using expressions to write transformations will be covered later in the lesson ([09. Writing Transformations](https://librarycarpentry.org/lc-open-refine/08-writing-transformations/index.html) ) 
+
 
