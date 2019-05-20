@@ -57,7 +57,7 @@ Such tests can be combined with other GREL expressions to create more complex tr
 >2. On the Authors column, use the dropdown menu and select ```Facet->Custom text facet...```
 >3. The Custom text facet function allows you to write GREL functions to create a facet
 >4. In the Expression box type ```if(value.contains(","), 'true', 'false')```
->* Click ```OK```
->* Since the 'contains' function outputs a Boolean value, your records will be split into one of two categories: 'false' or 'true' - i.e. true = values containing a comma; false = values not containing a comma
->* In order to change the names to natural order, see the Arrays lesson.
+>5. Click ```OK```
+Since the 'contains' function outputs a Boolean value, your records will be split into one of two categories: 'false' or 'true' - i.e. true = values containing a comma; false = values not containing a comma
+In order to change the names to natural order, see the Arrays lesson.
 {: .checklist}
