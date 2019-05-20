@@ -15,12 +15,13 @@ keypoints:
 ---
 
 ## Reordering and renaming columns
-You can re-order the columns by clicking the drop-down menu at the top of the first column (labelled 'All'), and choosing `Edit columns->Re-order / remove columns …`
+**Reorder** the columns by clicking the drop-down menu at the top of the first column (labelled 'All'), and choosing `Edit columns->Re-order / remove columns …`
+You can then drag and drop column names to reorder the columns, or remove columns completely if they are not required.
 
-You can then drag and drop column names to re-order the columns, or remove columns completely if they are not required.
+**Rename** a column use the drop-down menu for desired column, select *Edit column --> Rename this column**
 
 ## Sorting data
-You can sort data in OpenRefine by clicking on the drop-down menu for the column you want to sort on, and choosing `Sort`.
+Sort data in OpenRefine by clicking on the drop-down menu for the column you want to sort on, and choosing `Sort`.
 
 Once you have sorted the data, a new `Sort` drop-down menu will be displayed.
 
