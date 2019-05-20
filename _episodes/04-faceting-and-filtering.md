@@ -18,10 +18,20 @@ keypoints:
 - "You can easily correct common data issues from a Facet"
 ---
 
+## Filters
+You can filter the data displayed in OpenRefine by applying a 'Text Filter' - which looks for a particular piece of text appearing in a column. Text filters are applied by clicking the drop down menu at the top of the column you want to apply the filter to and choosing '**Text filter**'.
+
+The filter options appear in the left hand panel. Simply type in the text you want to use in the Filter to display only rows which contain that text in the relevant column.
+
+You can also use [regular expressions](https://librarycarpentry.github.io/lc-data-intro/04-regular-expressions/) in the filter.
+
+## Working with filtered data
+It is very important to note that when you have filtered the data displayed in OpenRefine, any operations you carry out will apply only to the rows that match the filter - that is the data currently being displayed.
+
 ## Facets
 Facets are one of the most useful features of OpenRefine and can help both get an overview of the data in a project as well as helping you bring more consistency to the data.
 
-A 'Facet' groups all the values that appear in a column, and then allow you to filter the data by these values and edit values across many records at the same time.
+A 'Facet' groups all the values that appear in a column, and then allows you to filter the data by these values and edit values across many records at the same time.
 
 The simplest type of Facet is called a 'Text facet'. This simply groups all the text values in a column and lists each value with the number of records it appears in. The facet information always appears in the left hand panel in the OpenRefine interface.
 
@@ -55,17 +65,8 @@ You can also `invert` the filter to show all records which do not match your sel
 >{: .solution}
 {: .challenge}
 
-## Filters
-As well as using Facets to filter the data displayed in OpenRefine you can also apply 'Text Filters' which looks for a particular piece of text appearing in a column. Text filters are applied by clicking the drop down menu at the top of the column you want to apply the filter to and choosing 'Text filter'.
 
-As with Facets, the Filter options appear in the left hand panel in OpenRefine. Simply type in the text you want to use in the Filter to display only rows which contain that text in the relevant column.
-
-You can also use [regular expressions](https://librarycarpentry.github.io/lc-data-intro/04-regular-expressions/) in the filter.
-
-## Working with filtered data
-It is very important to note that when you have filtered the data displayed in OpenRefine, any operations you carry out will apply only to the rows that match the filter - that is the data currently being displayed.
-
-## More on Facets
+## More Facets
 As well as 'Text facets' Refine also supports a range of other types of facet. These include:
 
 * Numeric facets
@@ -79,10 +80,10 @@ As well as 'Text facets' Refine also supports a range of other types of facet. T
 
 **Custom facets** are a range of different types of facets. Some of the default custom facets are:
 
-* Word facet - this breaks down text into words and counts the number of records each word appears in
-* Duplicates facet - this results in a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if the value in the selected column is an exact match for a value in the same column in another row
-* Text length facet - creates a numeric facet based on the length (number of characters) of the text in each row for the selected column. This can be useful for spotting incorrect or unusual data in a field where specific lengths are expected (e.g. if the values are expected to be years, any row with a text length more than 4 for that column is likely to be incorrect)
-* Facet by blank - a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if they have no data present in that column. This is useful when looking for rows missing key data.
+* *Word facet* - this breaks down text into words and counts the number of records each word appears in
+* *Duplicates facet* - this results in a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if the value in the selected column is an exact match for a value in the same column in another row
+* *Text length facet* - creates a numeric facet based on the length (number of characters) of the text in each row for the selected column. This can be useful for spotting incorrect or unusual data in a field where specific lengths are expected (e.g. if the values are expected to be years, any row with a text length more than 4 for that column is likely to be incorrect)
+* *Facet by blank* - a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if they have no data present in that column. This is useful when looking for rows missing key data.
 
 Facets are intended to group together common values and OpenRefine limits the number of values allowed in a single facet to ensure the software does not perform slowly or run out of memory. If you create a facet where there are many unique values (for example, a facet on a 'book title' column in a data set that has one row per book) the facet created will be very large and may either slow down the application, or OpenRefine will not create the facet.
 
